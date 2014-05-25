@@ -1,0 +1,9 @@
+name = "Zipcode Migrate"
+description = "Migrate Zipcode information from Google's fusion table data"
+package = "Migration"
+core = 7.x
+dependencies[] = migrate
+
+files[] = migrate_zipcode.module
+files[] = zipcode.inc
+
